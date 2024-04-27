@@ -3,6 +3,7 @@ import ContactList from "./ContactList";
 
 import { getData } from "./data";
 
+
 function ContactApp(){
     const contacts = getData();
 

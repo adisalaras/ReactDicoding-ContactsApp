@@ -7,6 +7,7 @@ function ContactList({contacts}){
             {
                 contacts.map((contact)=> (
                     <ContactItem key={contact.id}{ ...contact}/>
+                    
                 ))
             }
         </div>
